@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>웹개발 실습</title>
+
+    <style>
+        .box {
+            padding: 10px;
+            margin: 5px 0;
+        }
+
+        .box1 {
+            border: 1px solid black;
+        }
+
+        .box2 {
+            border: 1px dashed black;
+        }
+
+        .box3 {
+            border: 1px dotted black;
+        }
+
+        .box4 {
+            border: 3px double black;
+        }
+
+        .box5 {
+            border: 3px groove black;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 20px;
+        }
+
+        .container div {
+            padding: 12px 20px;
+            color: white;
+        }
+
+        .container div:nth-child(1) {
+            background: #16a9c5;
+        }
+
+        .container div:nth-child(2) {
+            background: #11758b;
+        }
+
+        .container div:nth-child(3) {
+            background: #101c38;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>내 웹페이지</h1>
+    <h2>테두리 실습</h2>
+
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box5">5</div>
+
+    <h2>Flexbox 실습</h2>
+
+    <div class="container">
+        <div>박스1</div>
+        <div>박스2</div>
+        <div>박스3</div>
+    </div>
+
+</body>
+</html>
